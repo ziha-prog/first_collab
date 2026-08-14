@@ -24,3 +24,14 @@ nav li a:hover {
 body {
     background-image: url('download (3).jpg');
 }
+body {
+    background-color: #6696e8;
+    font-family: Gill Sans Ultra Bold;
+}
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
