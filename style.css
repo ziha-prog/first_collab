@@ -27,6 +27,13 @@ body {
 body {
     background-color: #6696e8;
     font-family: Gill Sans Ultra Bold;
+    text-align: center;
+    
+}
+main h1 {
+    color: #ebee07;
+    font-size: 36px;
+    margin-top: 50px;
 }
 .card {
     background-color: #fff;
