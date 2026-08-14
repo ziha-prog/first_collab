@@ -33,12 +33,27 @@ body {
 main h1 {
     margin-top: 50px;
     font-family: Gill Sans Ultra Bold;
-    font-size: 64px;
+    font-size: 200px;
     font-weight: bold; 
     color: #FADB35; 
     -webkit-text-stroke: 2px #AD251B;
     text-align: center;
 }
+main h2 {
+    font-family: Gill Sans Ultra Bold;
+    font-size: 150px;
+    font-weight: bold; 
+    color: #FADB35;
+    text-align: center;
+}
+/* Membuat background merah di belakang tulisan STORY */
+  .story-bg {
+    background-color: #E60000; /* Warna merah */
+    padding: 5px 15px; /* Jarak antara teks dengan kotak merah */
+    display: inline-block;
+    transform: skewX(-10deg); /* Membuat kotak merah miring seperti di logo asli */
+    border-radius: 5px; /* Membuat sudut sedikit melengkung */
+  }
 .card {
     background-color: #fff;
     border-radius: 5px;
@@ -66,7 +81,8 @@ main {
     gap: 20px;                             /* Jarak antar kartu */
     padding: 20px;
     max-width: 1200px;
-    margin: 0 auto;               }
+    margin: 0 auto;   
+    align-items: center; /* Menengahkan secara Vertikal */      }
 .container last{
     display: grid;
     grid-template-columns: repeat(1, 4fr); /* Otomatis 4 kolom sama lebar */
