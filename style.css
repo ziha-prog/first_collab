@@ -35,8 +35,8 @@ main h1 {
     font-family: Gill Sans Ultra Bold;
     font-size: 64px;
     font-weight: bold; 
-    color: #ffd700; 
-    -webkit-text-stroke: 2px #cd0505;
+    color: #FADB35; 
+    -webkit-text-stroke: 2px #AD251B;
     text-align: center;
 }
 .card {
