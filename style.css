@@ -90,3 +90,15 @@ main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;   }
+    .card img {
+    width: 100%;                           /* Memenuhi lebar kartu */
+    height: 200px;                         /* Tinggi foto bisa disesuaikan */
+    object-fit: cover;                     /* Agar foto tidak peyot/terdistorsi */
+    border-radius: 8px;
+}
+.card-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
