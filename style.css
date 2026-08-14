@@ -31,9 +31,13 @@ body {
     
 }
 main h1 {
-    color: #ebee07;
-    font-size: 36px;
     margin-top: 50px;
+    font-family: Gill Sans Ultra Bold;
+    font-size: 64px;
+    font-weight: bold; 
+    color: #ffd700; 
+    -webkit-text-stroke: 2px #000;
+    text-align: center;
 }
 .card {
     background-color: #fff;
@@ -42,3 +46,31 @@ main h1 {
     padding: 20px;
     margin: 20px;
 }
+main {
+    display: flex;
+    justify-content: center; /* Menengahkan secara Horizontal */
+    align-items: center;     /* Menengahkan secara Vertikal */
+    min-height: calc(100vh - 50px); /* 50px diisi perkiraan tinggi nav kamu */
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Otomatis 4 kolom sama lebar */
+    gap: 20px;                             /* Jarak antar kartu */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;                        /* Agar container berada di tengah layar */
+}
+.container main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Otomatis 4 kolom sama lebar */
+    gap: 20px;                             /* Jarak antar kartu */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;               }
+.container last{
+    display: grid;
+    grid-template-columns: repeat(1, 4fr); /* Otomatis 4 kolom sama lebar */
+    gap: 20px;                             /* Jarak antar kartu */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;   }
