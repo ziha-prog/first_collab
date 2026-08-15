@@ -75,7 +75,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;                        /* Agar container berada di tengah layar */
 }
-.container main{
+.container-main{
     display: grid;
     grid-template-columns: repeat(1, 1fr); /* Otomatis 4 kolom sama lebar */
     gap: 20px;                             /* Jarak antar kartu */
@@ -83,7 +83,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;   
     align-items: center; /* Menengahkan secara Vertikal */      }
-.container last{
+.container-last{
     display: grid;
     grid-template-columns: repeat(1, 4fr); /* Otomatis 4 kolom sama lebar */
     gap: 20px;                             /* Jarak antar kartu */
